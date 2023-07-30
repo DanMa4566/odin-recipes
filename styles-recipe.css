@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    background-color: lightcoral;
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+h1 {
+    background-color: rgb(224, 222, 222);
+    color: black;
+    border: 3px solid black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h4 {
+    color: darkred;
+    margin: 10px auto;
+    padding: 11px;
+    background-color: rgb(224, 222, 222);
+    text-decoration: underline;
+}
+
+.other-container {
+    margin: auto;
+    text-align: center;
+}
+
+.img-container {
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px auto;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
+
+.description {
+    width: 350px;
+    display: inline-block;
+    margin: 20px auto;
+}
+
+.description h2 {
+    color: white;
+    margin: 10px;
+    padding: 11px;
+    background-color: darkred;
+}
+
+.description p {
+    color: white;
+    background-color: darkred;
+    padding: 8px;
+}
+
+.how-to {
+    display: block;
+    margin: 20px auto;
+}
+
+.how-to h3 {
+    border: 3px solid black;
+    text-align: center;
+    background-color: rgb(224, 222, 222);
+}
+
+.how-to ul, .how-to ol {
+    margin: 10px auto;
+    padding: 20px 20px 20px 50px;
+    background-color: darkred;
+    color: rgb(224, 222, 222);
+}
+
+
+.how-to ul li, .how-to ol li {
+    margin: 5px;
+    padding: 5px;
+    font-weight: 700;
+    border-bottom: 2px solid white;
+}
+
+.stubborn {
+    text-align: center;
+}
+
+a {
+    background-color: rgb(224, 222, 222);
+    color: black;
+    border: 3px solid black;
+    padding: 10px;
+}

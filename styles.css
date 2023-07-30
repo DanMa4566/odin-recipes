@@ -23,12 +23,20 @@ img {
 }
 
 ul {
-    list-style: square;
-    text-align: left;
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    background-color: rgb(119, 0, 0);
+    padding: 5px;
+    margin: 5px;
+    border: 2px dotted black;
 }
 
 
 ul li a {
     text-decoration: none;
-    color: blue;
+    color: yellow;
 }
